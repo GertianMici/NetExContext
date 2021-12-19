@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>a0356675-59b8-4469-a6a9-56f9c3d34e1d</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>NetExContext.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Brokers\DbErrorBroker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Brokers\IDbErrorBroker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Exceptions\DuplicateKeyException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Exceptions\DuplicateKeyWithUniqueIndexException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Exceptions\ForeignKeyConstraintConflictException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Exceptions\InvalidColumnNameException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Exceptions\InvalidObjectNameException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\INetExContextService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\NetExContextService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\NetExContextService.Exceptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\NetExContextService.Validations.cs" />
+  </ItemGroup>
+</Project>
