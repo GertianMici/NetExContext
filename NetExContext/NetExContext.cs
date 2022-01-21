@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NetExContext.Shared.Brokers;
-using NetExContext.Shared.Services;
+using NetExContexts.Shared.Brokers;
+using NetExContexts.Shared.Services;
 
-namespace NetExContext
+namespace NetExContexts
 {
     public class NetExContext : DbContext
     {

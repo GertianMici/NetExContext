@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NetExContext.Shared.Brokers;
+using NetExContexts.Shared.Brokers;
 using Npgsql;
 
-namespace NetExContext.Shared.Services
+namespace NetExContexts.Shared.Services
 {
     public partial class NetExContextService : INetExContextService
     {

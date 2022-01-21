@@ -1,9 +1,9 @@
-﻿using NetExContext.Shared.Models.Exceptions;
+﻿using NetExContexts.Shared.Models.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NetExContext.Shared.Services
+namespace NetExContexts.Shared.Services
 {
     public partial class NetExContextService
     {

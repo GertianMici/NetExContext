@@ -1,6 +1,6 @@
 ﻿using Npgsql;
 
-namespace NetExContext.Shared.Brokers
+namespace NetExContexts.Shared.Brokers
 {
     public class DbErrorBroker : IDbErrorBroker
     {

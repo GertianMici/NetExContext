@@ -1,15 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Moq;
-using NetExContext.Shared.Brokers;
-using NetExContext.Shared.Models.Exceptions;
-using NetExContext.Shared.Services;
+using NetExContexts.Shared.Brokers;
+using NetExContexts.Shared.Models.Exceptions;
+using NetExContexts.Shared.Services;
 using Npgsql;
 using System;
 using System.Runtime.Serialization;
 using Tynamix.ObjectFiller;
 using Xunit;
 
-namespace NetExContext.Identity.Tests
+namespace NetExContexts.Identity.Tests
 {
     public class NetExContextServiceTests
     {

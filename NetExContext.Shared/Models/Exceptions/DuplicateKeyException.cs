@@ -1,4 +1,4 @@
-﻿namespace NetExContext.Shared.Models.Exceptions
+﻿namespace NetExContexts.Shared.Models.Exceptions
 {
     public class DuplicateKeyException : Exception
     {

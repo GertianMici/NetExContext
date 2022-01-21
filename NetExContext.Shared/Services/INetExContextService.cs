@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace NetExContext.Shared.Services
+namespace NetExContexts.Shared.Services
 {
     public interface INetExContextService
     {

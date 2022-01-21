@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using NetExContext.Shared.Brokers;
-using NetExContext.Shared.Services;
+using NetExContexts.Shared.Brokers;
+using NetExContexts.Shared.Services;
 
-namespace NetExContext.Identity
+namespace NetExContexts.Identity
 {
     public class NetExIdentityContext<TUser> : IdentityDbContext<TUser, IdentityRole, string> where TUser : IdentityUser
     {
